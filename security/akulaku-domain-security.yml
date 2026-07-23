@@ -1,0 +1,16 @@
+generated: '2026-07-17'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: akulaku.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct  4 02:19:22 2026 GMT
+  hsts: false
+domains:
+- domain: akulaku.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none

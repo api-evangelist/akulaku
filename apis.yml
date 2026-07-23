@@ -1,8 +1,24 @@
 aid: akulaku
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/akulaku.png
 name: Akulaku
-description: 'Akulaku is a company surfaced as a portfolio company of dcm-ventures, qiming and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Akulaku is a Southeast Asian fintech and e-commerce platform serving Indonesia,
+  the Philippines, Vietnam, and Malaysia, combining an online shopping marketplace with
+  buy-now-pay-later (PayLater / Akucicil) installment credit and digital banking services.
+  For merchants and partners it runs the Akulaku Open Platform (developer.akulaku.com),
+  a vendor/seller integration surface exposing e-commerce and fulfillment APIs such as
+  Add Item, Get Order Detail, and Init, alongside a Competence Center API set, a developer
+  Console, and testing accounts to accelerate integration.'
 url: https://raw.githubusercontent.com/api-evangelist/akulaku/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,6 +33,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Fintech
+- BNPL
+- E-Commerce
+- Payments
+- Digital Banking
+- Merchant Platform
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: http://akulaku.com/
+- type: DeveloperPortal
+  name: Akulaku Open Platform
+  url: https://developer.akulaku.com/
+- type: Documentation
+  name: Open Platform API Documentation
+  url: https://developer.akulaku.com/documentation
+- type: APIReference
+  name: Vendor & Competence Center API Reference
+  url: https://developer.akulaku.com/documentation
+- type: Support
+  name: Open Platform FAQ
+  url: https://developer.akulaku.com/faq
+- type: DomainSecurity
+  url: security/akulaku-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
